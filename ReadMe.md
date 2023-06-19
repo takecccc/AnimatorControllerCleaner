@@ -1,4 +1,4 @@
-# AnimatorControllerCleaner v1.0
+# AnimatorControllerCleaner v1.1
 UnityのAnimatorController内に参照されないのに残ってしまったデータを削除します。
 
 ## 動作確認環境
@@ -21,3 +21,11 @@ AnimatorControllerから辿った参照ツリーに含まれていないオブ�
 
 ## 注意事項
 テストは行っていますが、完璧な動作は保証できません。一度AnimatorControllerを複製した上で実行し、問題ないことを確認することをおすすめします。
+
+
+## 更新履歴
+### v1.0
+登録
+
+### v1.1
+最後のオブジェクトの内容がひとつ前のオブジェクトの内容に置き換わってしまっていた不具合を修正。
