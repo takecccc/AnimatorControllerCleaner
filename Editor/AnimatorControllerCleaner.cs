@@ -197,7 +197,7 @@ public static class AnimatorControllerCleaner{
             if(objectHeader != null) sb.Append(line + "\n");
         }
         if(objectHeader == null) yield break;
-        var text = sb.ToString();
+        content = sb.ToString();
         yield return new AnimatorClassObj(
             GetClassIDByObjectHeader(objectHeader),
             GetFileIDByObjectHeader(objectHeader),
